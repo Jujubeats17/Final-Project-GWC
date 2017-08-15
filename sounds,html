@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sounds</title>
+</head>
+<body>
+<script type="text/javascript" src="sounds.js"></script>
+
+<h1>My First Heading</h1>
+<p>My first paragraph!</p>
+<!--button onclick = audio.getElementById(oceanWaves).src = sea_main.mp3 >Ocean Waves</button-->
+<!--embed src = sea_main.mp3-->
+<audio id="oceanWaves" src="./sea_main.mp3"></audio>
+<img src="beach.jpg" onclick="togglePlay()">
+
+
+</body>
+</html>
