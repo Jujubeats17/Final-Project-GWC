@@ -1,14 +1,23 @@
-var slideIndex = 0;
-showSlides();
+function showPicture() {
+  document.getElementById("cute-animal1").style.display='block';
+}
 
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex> slides.length) {slideIndex = 1}
-    slides[slideIndex-1].style.display = "block";
-    setTimeout(showSlides, 5000); // Change image every 2 seconds
+function showPicture2() {
+  document.getElementById("cute-animal1").src ="cute-animals2.jpg";
+}
+
+function showPicture3() {
+  document.getElementById("cute-animal1").src="cute-animals3.jpg";
+}
+
+function showLandscape() {
+  document.getElementById("natural-landscape1").style.display='block';
+}
+
+function showLandscape2() {
+  document.getElementById("natural-landscape1").src= "natural-landscape2.jpg";
+}
+
+function showLandscape3() {
+  document.getElementById("natural-landscape1").src="natural-landscape3.jpg";
 }
