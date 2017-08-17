@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+</style>
   <title> Slideshow </title>
   <script type="text/javascript" src="slideshowpage.js"></script>
   <link rel = "stylesheet"
@@ -15,20 +23,24 @@
      These images may include and are not limited to:
      cute animal like bunnies, puppies, and kittens;natural landscapes; colors; etc.</p>
 <p> ________________________________________________________________________</p>
+<div class = "center">
 <p align= "center">
-<button onclick="showPicture()" type=button id="slides">show kitten</button>
-<button onclick="showPicture2()" type=button id="slides">show bunny</button>
-<button onclick="showPicture3()" type=button id="slides">show puppy</button>
 
-<button onclick="showLandscape()" type=button id="slides">show lake</button>
-<button onclick="showLandscape2()" type=button id="slides">show beach</button>
-<button onclick="showLandscape3()" type=button id="slides">show mountains</button>
 
   <h2> Cute Animals </h2>
-      <img id= "cute-animal1" src="cute-animals.jpg" style="display: none;" width="175" height="175"></img>
-      <img id= "cute-animal2" src="cute-animals2.jpg" style="display: none;" width="175" height="175"></img>
-      <img id= "cute-animal3" src="cute-animals3.jpg" style="display: none;" width="175" height="175"></img>
+<p align= "center">
+  <button onclick="showPicture()" type=button id="slides">show kitten</button>
+  <button onclick="showPicture2()" type=button id="slides">show bunny</button>
+  <button onclick="showPicture3()" type=button id="slides">show puppy</button>
+
+  <img id= "cute-animal1" src="cute-animals.jpg" style="display: none;" width="175" height="175"></img>
+
   <h3> Natural Landscapes </h3>
+  <p align= "center">
+  <button onclick="showLandscape()" type=button id="slides">show lake</button>
+  <button onclick="showLandscape2()" type=button id="slides">show beach</button>
+  <button onclick="showLandscape3()" type=button id="slides">show mountains</button>
+
     <img id= "natural-landscape1"src="natural-landscape.jpg"style= "display: none;" width="300" height="175"></img>
     <img id= "natural-landscape2" src="natural-landscape2.jpg" style= "display: none;" width="300" height="175"></img>
     <img id= "natural-landscape3" src="natural-landscape3.jpg"style= "display: none;" width="300" height="200"></img>
