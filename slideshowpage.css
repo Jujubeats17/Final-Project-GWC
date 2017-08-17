@@ -26,9 +26,21 @@ h3 {
   color: lightBlue;
   font-family: verdana;
   font-size: 175%;
-  text-align: center;
+  text-align: center
 }
 
 button {
   background-color: lightBlue;
+}
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 100%
 }
