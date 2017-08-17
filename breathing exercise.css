@@ -4,10 +4,84 @@ body {
 
 
 h1 {
-    color: purple;
+    color: blue;
     font-family: verdana;
+    text-align: center
 }
 p {
-    color: red;
+    color: white;
     font-family: verdana;
+    text-align: center
+}
+
+button {
+  background-color: powderblue;
+}
+
+/*@keyframes img {
+  .button {
+    -webkit-animation: img 4s 1s infinite linear alternate;
+  }
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(1.15);
+  -webkit-transform: scale(1.15); /* Safari and Chrome */
+
+
+.element {
+  animation-name: trial;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+@-webkit-keyframes trial {
+  0%{
+    border-radius: 50%
+    transform:scale();
+    animation-duration: infinate;
+  }
+  10%{
+    border-radius: 50%;
+    transform:scale(0);
+  }
+  20%{
+    border-radius: 50%;
+    transform:scale(.10);
+  }
+  30%{
+    border-radius: 50%;
+    transform:scale(.25);
+  }
+  40%{
+    border-radius: 50%;
+    tranform:scale(.50);
+  }
+  50%{
+    border-radius: 50%;
+    transform:scale(.75);
+  }
+  60%{
+    border-radius: 50%;
+    transform:scale(1);
+  }
+  70%{
+    border-radius: 50%;
+    transform:scale(1.25);
+  }
+  80%{
+    border-radius: 50%;
+    transform:scale(1.5);
+  }
+  90%{
+    border-radius: 50%;
+    transform:scale(1.75);
+  }
+  100%{
+    border-radius: 50%;
+    transform:scale(2);
+  }
+
 }
