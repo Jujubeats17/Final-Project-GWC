@@ -1,21 +1,42 @@
 body {
-      background-color: pink;
+      background-color: powderblue;
 }
 
 
 h1 {
-    color: blue;
+    color: hotpink;
     font-family: verdana;
     text-align: center
 }
 p {
-    color: white;
+    color: black;
     font-family: verdana;
     text-align: center
 }
 
+/*.center {
+  margin: auto;
+  width: 60%;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 10px;
+}*/
+
 button {
-  background-color: powderblue;
+  background-color: pink;
+  font-size: 100%;
+  border-radius: 5px;
+  padding: 15px 55px;
+  border: 2px solid white;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+    color: black;
 }
 
 
@@ -34,7 +55,7 @@ button {
 }
 .element {
   animation-name: trial;
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-delay: .2s;
   animation-iteration-count: infinite;
   animation-timing-function: cubic-bezier(1,.015,.295,1.225);
@@ -43,7 +64,7 @@ button {
 div {
   width: 200px;
   height: 200px;
-  animation: trial 4s .2s infinite cubic-bezier(1,.015,.295,1.225) alternate;
+  animation: trial 3s .2s infinite cubic-bezier(1,.015,.295,1.225) alternate;
 }
 @keyframes trial {
   0%{}
