@@ -14,12 +14,30 @@
 
 //}
 
-function Inhale() {
-  document.getElementById("bubble").style.width = "400px".height = "400px";
+//function Inhale() {
+  //document.getElementById("bubble").style.width = "400px".height = "400px";
+//}
+
+//function Exhale() {
+  //document.getElementById("bubble").style.width = "204px".height = "204px";
+//}
+
+function changeToExhale() {
+  document.getElementById("inhale").onclick=("Exhale");
+
 }
 
-function Exhale() {
-  document.getElementById("bubble").style.width = "204px".height = "204px";
+
+function changeToInhale() {
+  document.getElementById("inhale").onclick=("Inhale");
+
+}
+
+function time() {
+  while (true) {
+    setTimeout(changeToExhale, 2000);
+    setTimeout(changeToInhale, 2000);
+  }
 }
 
 var myAudio = document.getElementById("rain");
