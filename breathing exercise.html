@@ -7,6 +7,8 @@
   <link rel = "stylesheet"
     type = "text/css"
     href = "breathing-exercise.css" />
+
+
 </head>
 
 <body>
@@ -27,13 +29,16 @@
 <div id="bubble">
 <img src = "bubble.png" style="width:204px;height:204px;"/>
 </div>
-
+<p align="center">
+<button id="inhale">Inhale</button>
 <h1>Sounds</h1>
-<p>Here are some sounds to choose from to listen to.</p>
-<p>_________________________________________________</p>
+<p>Here are some sounds to choose from to listen to. You can listen to more than one sound at once.</p>
+<p>If you choose not to listen to multiple sounds or want the sound to stop, just click the button again to pause it.</p>
+<p>________________________________________________________________________________________</p>
 <p align="center">
 <audio id="rain" src="./rain.mp3.mp3"></audio>
 <img src="rain icon.jpg" onclick="togglePlay()" style="width:204px;height:204px;">
+<!--image source: https://wall.alphacoders.com/big.php?i=554452-->
 
 <audio id="sea" src="./sea.mp3"></audio>
 <img src="sea.jpg" onclick="togglePlay2()" style="width:204px;height:204px;">
@@ -50,6 +55,5 @@
 <audio id="creek" src="./creek.mp3"></audio>
 <img src="creek.jpg" onclick="togglePlay5()" style="width:204px;height:204px;">
 <!--image source: http://www.wikiwand.com/en/Taylor-Massey_Creek-->
-
 </body>
 </html>
